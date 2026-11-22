@@ -48,6 +48,79 @@
       ],
       "ast": [
         "aggregate/ast/eb9b23e537db4e586f21a53ad380526fda69a35c/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/eb9b23e537db4e586f21a53ad380526fda69a35c.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "percent-encoding",
+          "ecosystem": "CARGO",
+          "version": "2.3.1",
+          "githubOrg": "servo",
+          "githubRepo": "rust-url",
+          "githubCommit": "359bc90a4f07224f79cc79c45dc873d44bcd6f14",
+          "githubTag": "v2.3.1",
+          "githubUrl": "https://github.com/servo/rust-url/",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/percent-encoding-2.3.1/src/lib.rs"
+        },
+        {
+          "packageName": "dogma",
+          "ecosystem": "CARGO",
+          "version": "0.1.9",
+          "githubOrg": "dogmatists",
+          "githubRepo": "dogma.rs",
+          "githubCommit": "d4f461539d9945260f77838eb301a7921da852c3",
+          "githubTag": "0.1.9",
+          "githubUrl": "https://github.com/dogmatists/dogma.rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dogma-0.1.9/src/enums/iri.rs"
+        },
+        {
+          "packageName": "ureq",
+          "ecosystem": "CARGO",
+          "version": "3.0.12",
+          "githubOrg": "algesten",
+          "githubRepo": "ureq",
+          "githubCommit": "a3005534fd761e927f2570d10d43d558da054775",
+          "githubTag": "3.0.12",
+          "githubUrl": "https://github.com/algesten/ureq",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ureq-3.0.12/src/agent.rs"
+        },
+        {
+          "packageName": "suppaftp",
+          "ecosystem": "CARGO",
+          "version": "6.3.0",
+          "githubOrg": "veeso",
+          "githubRepo": "suppaftp",
+          "githubCommit": "96cb46417e65ccb0f9f0b7ec8613c141c151c6b5",
+          "githubTag": "v6.3.0",
+          "githubUrl": "https://github.com/veeso/suppaftp",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/suppaftp-6.3.0/src/lib.rs"
+        },
+        {
+          "packageName": "thiserror",
+          "ecosystem": "CARGO",
+          "version": "2.0.12",
+          "githubOrg": "dtolnay",
+          "githubRepo": "thiserror",
+          "githubCommit": "95a512669395f30cf9ae10343149726c0563ed76",
+          "githubTag": "2.0.12",
+          "githubUrl": "https://github.com/dtolnay/thiserror",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/lib.rs"
+        },
+        {
+          "packageName": "data-url",
+          "ecosystem": "CARGO",
+          "version": "0.3.1",
+          "githubOrg": "servo",
+          "githubRepo": "rust-url",
+          "githubUrl": "https://github.com/servo/rust-url",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/data-url-0.3.1/src/lib.rs"
+        }
       ]
     }
   ],

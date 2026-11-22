@@ -1,0 +1,17 @@
+[2026-11-22T08:27:16Z] === ENRICH ITERATION 1 START | repo=dryrust/gofer.rs sha=eb9b23e5 ===
+[2026-11-22T08:27:16Z] [iter=1] PHASE START: enrich repo=dryrust/gofer.rs sha=eb9b23e5 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/eb9b23e5-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/eb9b23e537db4e586f21a53ad380526fda69a35c.nq.gz
+[2026-11-22T08:27:16Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T08:27:16Z] [iter=1] AST store loaded triples=33307 load_secs=0 mem_mb=128 MB
+[2026-11-22T08:27:16Z] [iter=1] Step 2: Finding LSP targets mem_mb=128 MB
+[2026-11-22T08:27:16Z] [iter=1] LSP targets found call_sites=222 imports=11 extends=0 implements=0 secs=0
+[2026-11-22T08:27:16Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=128 MB
+[2026-11-22T08:27:16Z] [iter=1] Position index built positions=2319 nodes_with_types=2794 secs=0 mem_mb=128 MB
+[2026-11-22T08:27:16Z] [iter=1] Step 3: Starting LSP resolution mem_mb=128 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T08:27:16Z] [iter=1] Resolving target type target_type=call_site count=222
+[2026-11-22T08:29:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.8 files_done=16 resolved=158 errors=0 current=Rakefile
+[2026-11-22T08:29:06Z] [iter=1] Target type resolved target_type=call_site resolved=158 errors=0 secs=109 mem_mb=128 MB
+[2026-11-22T08:29:06Z] [iter=1] Resolving target type target_type=import_statement count=11
+[2026-11-22T08:29:21Z] [iter=1] Target type resolved target_type=import_statement resolved=11 errors=0 secs=15 mem_mb=128 MB
+[2026-11-22T08:29:35Z] [iter=1] Step 5: Writing final enrichment file triples=2242
+[2026-11-22T08:29:35Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/eb9b23e537db4e586f21a53ad380526fda69a35c.nq.gz size_kb=37
+[2026-11-22T08:29:35Z] [iter=1] PHASE END: enrich elapsed_s=139 elapsed_min=2.3 total_triples=2242
