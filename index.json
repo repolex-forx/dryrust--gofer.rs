@@ -1,0 +1,11 @@
+{
+  "org": "dryrust",
+  "repo": "gofer.rs",
+  "versions": [
+    {
+      "commit": "eb9b23e537db4e586f21a53ad380526fda69a35c",
+      "tag": "0.2.0",
+      "parsed_at": "2026-11-22T08:31:25.862476+00:00"
+    }
+  ]
+}
